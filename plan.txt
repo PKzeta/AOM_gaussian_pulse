@@ -1,0 +1,32 @@
+
+Goal: Shape laser pulse using AOM to create a gaussian intensity-time
+
+Spectrum AWG
+buncha coding for different waveforms
+got to read scope and card from pc, all using api in python
+
+training ->
+AOM - calc max power, (dbm, power spectrum analyser)
+alignment - bragg angle, mirrors, lenses
+first convex concave reduce beam width by 2/3
+risetime 310ns
+-> better to do convex convex smaller in aom (reduce rise time 25ns ) and after 2nd lens (photodiode)
+
+measured how gaussian
+very gaussian
+
+square pulse used to measure rise time
+in theory minimum around 6ns due to crystal size and beam
+sawtooth ramp used to measure non-linear effect
+
+trigger
+AWG -> spectrum - 400ns hardware + cycle
+AWG -> photodiode 740ns above + AOM travel time
+
+sinusoidal as chi told me
+
+Pictures:
+set-up
+gaussian width actual vs expected
+amplitude of signal vs aom power
+scope pictures of - trigger working, gaussian pulses, square pulse to measure delay + risetime, sawtooth for fun,  
