@@ -14,10 +14,10 @@ The code was developed for the:
 - 3100-1125 AOM
 
 # Contains
-Gaussian Generator with tuneable pulse width and amplitude (gaussian_pulse.py)
-Sine Generator with tuneable sinusoid parameters (sin_gen.py)
-Multi-channel waveform generation (multi_channel_code.py)
-Gaussian baseband pulse envelope for mixing with an RF local oscillator to produce a Gaussian-shaped RF pulse for AOM control (convol_CH1_sin_CH2.py)
-AWG waveform/array generation and control (AWG_array.py)
-Live AWG waveform/array generation and control, allowing pulse parameters to be changed in real time while the waveform is being continuously output (live_gauss_loop.py)
-trigger_test2.py	Tests the AWG trigger/marker output by sending in an external trigger from the .
+Gaussian Generator with tuneable pulse width and amplitude (`gaussian_pulse.py`)
+Sine Generator with tuneable sinusoid parameters (`sin_gen.py`)
+Multi-channel waveform generation (`multi_channel_code.py`)
+Gaussian baseband pulse envelope for mixing with an RF local oscillator to produce a Gaussian-shaped RF pulse for AOM control (`convol_CH1_sin_CH2.py`)
+AWG waveform/array generation and control (`AWG_array.py`)
+Live AWG waveform/array generation and control, allowing pulse parameters to be changed in real time while the waveform is being continuously output (`live_gauss_loop.py`)
+AWG trigger testing using an external trigger from a National Instruments (NI) box via DIO 0 (`trigger_test2.py`)
