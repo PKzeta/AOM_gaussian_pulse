@@ -33,8 +33,13 @@ AWG trigger testing using an external trigger from a National Instruments (NI) b
 The scripts require Python and the Spectrum Instrumentation Python driver files:
 
 `pyspcm.py`
+
 `regs.py`
+
 `spcerr.py`
+
 `spcm_tools.py`
 
 These files are provided with the USB stick supplied with the AWG. Place the files in the same directory as the scripts.
+
+The `trigger_test2.py` program requires the niHSDIO dll file to work.
