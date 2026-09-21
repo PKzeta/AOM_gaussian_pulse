@@ -8,11 +8,11 @@ Hardware
 
 The code was developed for the:
 
--Spectrum Instrumentation M4i/M4x 66xx series AWG cards
--Serial number: 18230
--Sampling rate: 1.25 GS/s
--Resolution: 16-bit
--Analog bandwidth: 400 MHz
--3100-1125 AOM
+- Spectrum Instrumentation M4i/M4x 66xx series AWG cards
+- Serial number: 18230
+- Sampling rate: 1.25 GS/s
+- Resolution: 16-bit
+- Analog bandwidth: 400 MHz
+- 3100-1125 AOM
 
 The AWG generates the RF waveform used to control the AOM.
