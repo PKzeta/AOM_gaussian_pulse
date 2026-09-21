@@ -27,3 +27,14 @@ AWG waveform/array generation and control (`AWG_array.py`)
 Live AWG waveform/array generation and control, allowing pulse parameters to be changed in real time while the waveform is being continuously output (`live_gauss_loop.py`)
 
 AWG trigger testing using an external trigger from a National Instruments (NI) box via DIO 0 (`trigger_test2.py`)
+
+# Prerequisites
+
+The scripts require Python and the Spectrum Instrumentation Python driver files:
+
+`pyspcm.py`
+`regs.py`
+`spcerr.py`
+`spcm_tools.py`
+
+These files are provided with the USB stick supplied with the AWG. Place the files in the same directory as the scripts.
