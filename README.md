@@ -42,4 +42,4 @@ The scripts require Python and the Spectrum Instrumentation Python driver files:
 
 These files are provided with the USB stick supplied with the AWG. Place the files in the same directory as the scripts.
 
-The `trigger_test2.py` program requires the niHSDIO dll file to work.
+The `trigger_test2.py` program requires the NI-HSDIO driver file to work.
